@@ -47,7 +47,7 @@ public class Lyric {
 			}
 		}
 		
-		return null;
+		return lines.get(lines.size()-1).getOuter();
 	}
 	
 	/**
@@ -70,7 +70,7 @@ public class Lyric {
 			}
 		}
 		
-		return -1;
+		return lines.size()-1;
 	}
 	
 	/**
